@@ -9,7 +9,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    background-color: #e3e6e7;
+    background-color: #e8eaeb;
 }
 
 /* HEADER */
@@ -36,7 +36,7 @@ main {
 }
 #divider {
     height: 5px;
-    background-color: #e3e6e7;
+    background-color: #e8eaeb;
 }
 .container {
     margin-top: 40px;
@@ -59,6 +59,7 @@ main {
     border: solid 3px grey;
     color: grey;
 }
+/* List of tasks */
 main ul {
     list-style-type: none;
     line-height: 50px;
@@ -66,8 +67,24 @@ main ul {
 ul ul {
     font-size: 18px;
 }
+.check{
+    padding: 3px;
+    margin-right: 10px;
+    display: inline;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.cross {
+    padding: 3px;
+    margin-right: 10px;
+    display: inline;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
 
-/* type of task */
+/* type of tasks */
 .type {
     display: inline;
     font-size: 15px;
